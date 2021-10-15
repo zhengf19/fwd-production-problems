@@ -22,23 +22,21 @@ html {
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; /* source: https://www.cssfontstack.com/Trebuchet-MS */
   font-size: 1.25em; /* 20 / 16 px = 1.25; divide by default px size */
   line-height: 1.625em; /* 20 * 1.3 = 26; general rule of thumb: ~120% */
-  padding: 0.8em;
+  padding: 1.625em;
 }
 
 
 h1 {
-  font-size: 2.16em; /* base = 20px; ratio = 1.2; */
-  padding-bottom: 2.2em;
-  line-height: 2.2em;
+  font-size: 2.16em; /* base = 20px; ratio = 1.2; 34.56px */
+  padding-bottom: 2.808em;
 }
 
 h2 {
-  font-size: 1.8em; /* base = 20px; ratio = 1.2; */
-  padding-bottom: 2.0em;
-  line-height: 2.0em;
+  font-size: 1.8em; /* base = 20px; ratio = 1.2; 28.8px */
+  padding-bottom: 2.25em;
 }
 
-p, ul, figcaption{
+p, ul, figcaption, footer {
   padding-bottom: 1.625em;
 }
 
