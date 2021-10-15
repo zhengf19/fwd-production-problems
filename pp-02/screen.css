@@ -17,30 +17,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
+  color: #EEE;
+  background: #111;
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; /* source: https://www.cssfontstack.com/Trebuchet-MS */
   font-size: 1.25em; /* 20 / 16 px = 1.25; divide by default px size */
   line-height: 1.625em; /* 20 * 1.3 = 26; general rule of thumb: ~120% */
-  padding: 1.25em;
+  padding: 0.8em;
 }
 
 
 h1 {
   font-size: 2.16em; /* base = 20px; ratio = 1.2; */
-  padding-bottom: 1.625em;
+  padding-bottom: 2.2em;
+  line-height: 2.2em;
 }
 
 h2 {
   font-size: 1.8em; /* base = 20px; ratio = 1.2; */
-  padding-bottom: 1.5em;
+  padding-bottom: 2.0em;
+  line-height: 2.0em;
 }
 
-p {
-  padding-bottom: 1.25em;
+p, ul, figcaption{
+  padding-bottom: 1.625em;
 }
 
 a {
   text-decoration: none;
-  padding-bottom: 1.25em;
+  padding-bottom: 1.625em;
 }
 
 
