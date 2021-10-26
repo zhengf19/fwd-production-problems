@@ -32,9 +32,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   flex-flow: column-reverse nowrap;
 }
 
-#three,
-#two,
-#one {
+section {
+  flex: 1 0 auto;
   height: 100vw;
 }
 
@@ -45,11 +44,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
   #two,
   #one {
-    flex: 1 0 50%;
+    width: 50%;
     height: 50vw;
   }
   #three {
-    flex: 1 0 100%;
+    width: 100%;
   }
 }
 
@@ -57,7 +56,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #three,
   #two,
   #one {
-    flex: 1 0 33%;
+    width: 33%;
     height: 33vw;
   }
 }
